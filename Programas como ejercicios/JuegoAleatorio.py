@@ -25,5 +25,8 @@ while vidas > 0:
 
 if vidas > 1:
     print(f'Te quedaron {vidas} vidas y lo lograste en el intento {contador}')
-elif vidas <= 1:
+elif vidas == 1:
     print(f'Te quedo {vidas} vidas y lo lograste en el intento {contador} ')
+elif vidas == 0:
+    print('¡Perdiste!'.center(50, '-'))
+    print('Se te acabor las vidas =(')
