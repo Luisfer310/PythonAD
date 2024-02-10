@@ -1,7 +1,6 @@
 from random import *
 
 # Juego de adivinar el numero
-
 iniciar = input('Bienvenido al juego de "Adivina el numero", escribe "Inicio" para iniciar el juego: ')
 iniciar = iniciar.lower()
 numero = randint(1, 100)
