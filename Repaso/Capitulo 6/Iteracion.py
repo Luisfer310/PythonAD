@@ -31,9 +31,12 @@ while contador <= largo:
 # Iteracion de fin a inicio con ciclo for
 for i in range(len(palabra) - 1, -1, -1):  # En el caso de los ciclos for es mas facil y mas corto que los de tipo
     # while, en el for por cada elemento en el rango del largo de la palabra se le restara 1 para igualar al contenido
-    # del indice
+    # del indice, el segundo decremento es para indicar que iremos decrementando por cada vuelta y el ultimo es cuantos
+    # indices iremos recorriendo por vuelta
     print(palabra[i])
 
 # Iteracion de inicio a fin con ciclo for
-for i in palabra:
+for i in palabra:  # En el metodo para ciclo for de inicio a fin es mucho mas simple que cualquiera de los anteriores.
+    # En este definimos el ciclo que por cada elemento(i) en la variable palabra se iterara y se pintara en pantalla el
+    # elemento en el que se encuentre en cada vuelta
     print(i)
