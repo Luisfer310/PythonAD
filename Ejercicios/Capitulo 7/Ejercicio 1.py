@@ -1,2 +1,4 @@
 # Escribe un programa que lea un archivo e imprima su contenido (línea por línea), todo en mayúsculas.
-archivo = open('mbox.txt')
+archivo = open('mbox-short.txt')
+leer = archivo.read()
+print(leer.upper())
