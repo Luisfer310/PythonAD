@@ -4,10 +4,10 @@ class Persona:
         self.nombre = nombre
         self.edad = edad
 
-    def obterner_informacion(self):
+    def obterner_informacion(self): # Este sera el metodo dentro de la clase
         return f'Nombre: {self.nombre}, edad: {self.edad}'
     
-persona0 = Persona('Luis', 24) # Se crea una instancia de la clase (estee seria el objeto)
+persona0 = Persona('Luis', 24) # Se crea una instancia de la clase (este seria el objeto)
 print(persona0.obterner_informacion()) # Para acceder a un metodo se debe de hacer con un punto
 
 # Herencia
